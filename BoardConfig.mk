@@ -42,6 +42,10 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=x909 lpj=67677 user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/x909-cm-kernel
+TARGET_KERNEL_CONFIG := aosp_x909_defconfig
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true

@@ -49,10 +49,6 @@ PRODUCT_PACKAGES += \
 	Stk \
 	Email
 
-LOCAL_KERNEL := device/oppo/x909/zImage
-
-PRODUCT_COPY_FILES += \
-        $(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
 	device/oppo/x909/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
