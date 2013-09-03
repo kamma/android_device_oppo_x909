@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-	device/oppo/x909/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-        device/oppo/x909/wlan/wlan.ko:system/lib/modules/wlan.ko
+	device/oppo/x909/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
 
 PRODUCT_COPY_FILES += \
 	device/oppo/x909/configs/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3 \

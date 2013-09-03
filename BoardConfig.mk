@@ -43,7 +43,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=x909 lpj=
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/x909-cm-kernel
+#TARGET_KERNEL_SOURCE := kernel/cm-kernel
+TARGET_KERNEL_SOURCE := kernel/oppo-kernel
 TARGET_KERNEL_CONFIG := aosp_x909_defconfig
 
 # Bluetooth
